@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-import model.ops as ops
+import CARN.carn.model.ops as ops
 
 class Block(nn.Module):
     def __init__(self, 
